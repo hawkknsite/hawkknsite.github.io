@@ -30,7 +30,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
         with:
-          repository: ntsd/zero-share
+          repository: kellen-nankervis/zero-share
           ref: ${{ github.event.inputs.ref }}
       - name: Setup Node
         uses: actions/setup-node@v3
